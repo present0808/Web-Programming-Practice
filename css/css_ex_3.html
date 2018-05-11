@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style type="text/css">
+		img{
+			border:1px solid red;
+			float:left;
+		}
+	</style>
+</head>
+<body>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8nQhh5AO2758Y3LitXLRe1zFeZiqeKaBCetUND78I2jB0IgiA" />
+
+메뉴 바로가기본문 바로가기
+내 블로그 이웃블로그  블로그 홈 
+사용자 링크
+Prese..내정보 보기
+서비스 더보기
+ prologue  blog	 map  library  memo  guest
+jidon333
+개인 공부 정리 블로그
+
+프로필 쪽지 이웃추가
+
+category
+^
+전체보기 (158)
+C/C++ (53)
+CSharp (1)
+Python (4)
+Design Pattern (9)
+어셈블리 (0)
+3D GAME Study (53) 3D GAME Study 열림
+3D 그래픽의 이해 (33)
+수학 개념 정리 (3)
+DirectX 11 (5)
+FBX (4)
+Linear Algebra (2)
+Quaternion (6)
+개발 Tip (4)
+버그리포트 (4)
+UE4 (14)
+Unity (0)
+cocos2d-x (7)
+API (3)
+Network (1)
+기타 (4)
+책 (0)
+Windows (1)
+activity
+블로그 이웃 211 명
+글 보내기 0 회
+포스트 스크랩 68 회
+사용중인 아이템 보기
+visited blogger
+^
+ aa 삭제
+ karstyner님의블로..
+ 태일이태일님의 블..
+ [재택알바/투잡/대..
+ wjdgowns119님의블..
+ ㉦㉦┣㉠┣㉢┃어진..
+ 나의찰나
+recent comment
+^
+ 선형대수학 - Eliminat...
+ 람다(Lambda)를 잘못...
+ 3D 그래픽의 이해 : 카...
+ Quaternion 개념 정리...
+ 파이썬의 멋짐 : 문자...
+ C++ : 유틸리티 pair<...
+ 깃허브로 블로그 이주
+
+C/C++ (53)
+목록열기  	
+C++11 : numeric_limits 클래스로 자료형의 max,min 값 알아내기   C/C++  
+2014. 4. 9. 23:44
+복사https://blog.naver.com/jidon333/60212623978
+번역하기
+ 
+전용뷰어 보기
+ 
+
+프로그래밍을 하다보면 자료형의 최대,최소값이 궁금할 때가 있다.
+
+ 
+
+물론 32비트 어플리케이션에서 int 는 4바이트고, char 는 1바이트고 등등 하는 것을 알고 있으니
+
+계산기로 2^32, 2^8  등등을 계산해도 되지만 좀 더 간단한 방법을 알아냈다.
+
+ 
+
+바로  std::numeric_limits 클래스이다.
+
+msdn을 찾아보니
+
+기본 제공 자료형의 산술속성을 설명하는 클래스라고 설명하고 있다.
+
+ 
+
+멤버로 다양한 함수와 상수를 제공하고 있지만 일단 가장 많이(?) 사용될 것 같은 max(), min()을 사용하는 예제를 올리겠다.
+
+ 
+
+1
+2
+3
+4
+5
+6
+std::numeric_limits<long long> a;
+    long long max = a.max();
+    long long min = a.min();
+ 
+    cout << " long long 자료형의 최대값 : " << max << endl;
+    cout << " long long 자료형의 최소값 : " << min << endl;
+ 
+
+ 
+
+ 
+
+좀 더 자세한 정보는 MSDN에서 설명하고 있다.
+
+ 
+
+http://msdn.microsoft.com/query/dev12.query?appId=Dev12IDEF1&l=KO-KR&k=k(limits%2Fstd%3A%3Anumeric_limits);k(std%3A%3Anumeric_limits);k(numeric_limits);k(DevLang-C%2B%2B);k(TargetOS-Windows)&rd=true
+
+  인쇄 블로그카페북마크메모
+보내기 댓글쓰기 	
+'C/C++' 카테고리의 다른 글 전체 포스트 보기
+STL : Ordered Associative container 간단 소개 
+2014.04.11.
+
+C++11 : 클래스 필수 생성자,연산자들의 구현 
+2014.04.10.
+
+C++11 : numeric_limits 클래스로 자료형의 max,min 값 알아내기 
+2014.04.09.
+
+C++ : 헷갈리는 업 캐스팅(up-casting) 다운 캐스팅(down-casting) (9)
+2014.04.09.
+
+STL : 컨테이너 ( Container ) 
+2014.04.09.
+
+◀이전
+	
+다음▶
+
+이 블로그에서 많이 본 글
+Quaternion 개념 정리- part4(쿼터니언을 이용한 회전) (3)
+2016.12.19.
+
+3D 그래픽의 이해 : 투영변환(Projection Transformation) (6)
+2014.03.24.
+
+Quaternion 개념 정리- part1(복소수 기본개념) 
+2016.12.17.
+
+condition_variable (조건 변수) 
+2014.11.15.
+
+Quaternion 개념 정리- part2(사원수 배경지식) (8)
+2016.12.17.
+
+◀이전
+	
+다음▶
+
+▲ top
+0
+국내
+해외
+크게보기
+
+검색
+서재안에 포스트 0
+
+서재 안에
+포스트가 없습니다.
+
+전체보기
+17
+122,466
+
+확인  취소
+닫기
+</body>
+</html>
