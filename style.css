@@ -7,24 +7,15 @@ body.white{
 	background-color:white;
 	color:black;
 }
+#logo
+{
+	width:50px;
 
-header{
-	border-bottom:1px solid grey;
-	padding:20px;
 }
-nav{
-	border-right:1px solid grey;
-	width:200px;
-	height:600px;
-	float:left;
+.container{
+	padding-top:20px;
 }
-nav ol{
-	list-style:none;
-}
-article{
-	float:left;
-	padding:20px;
-}
-#right{
-	float:right;
+#control{
+	margin-bottom:20px;
+
 }
